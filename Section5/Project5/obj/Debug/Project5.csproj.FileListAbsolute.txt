@@ -1,2 +1,9 @@
 C:\Users\User\Desktop\MyFirstSolution\Project5\obj\Debug\Project5.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\MyFirstSolution\Project5\obj\Debug\Project5.csprojAssemblyReference.cache
+C:\Users\User\Desktop\IT1050\Section5\Project5\obj\Debug\Project5.csprojAssemblyReference.cache
+C:\Users\User\Desktop\IT1050\Section5\Project5\obj\Debug\Project5.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IT1050\Section5\Project5\bin\Debug\Project5.exe.config
+C:\Users\User\Desktop\IT1050\Section5\Project5\bin\Debug\Project5.exe
+C:\Users\User\Desktop\IT1050\Section5\Project5\bin\Debug\Project5.pdb
+C:\Users\User\Desktop\IT1050\Section5\Project5\obj\Debug\Project5.exe
+C:\Users\User\Desktop\IT1050\Section5\Project5\obj\Debug\Project5.pdb

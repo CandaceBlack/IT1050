@@ -8,20 +8,18 @@ namespace Project5
 {
     class Person
     {
-        public string FirstName;
-        public string LastName;
-        private string FullName;
-
-
+        public string firstName;
+        public string lastName;
+    
         public Person(string FirstName, string LastName)
         {
-            this.FirstName = FirstName;
-            this.LastName = LastName;
-            this.FullName = this.FirstName + " " + this.LastName;
+            this.firstName = FirstName;
+            this.lastName = LastName;
         }
-        public string Print()
+        public void Print()
         {
-            return this.FirstName + " " + this.LastName;
+            string fullName = firstName + " " + lastName;
+            System.Console.WriteLine(fullName);
         }
 
     }
