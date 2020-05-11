@@ -8,23 +8,22 @@ namespace Project3
 {
     class Instructor
     {
-        private string Name;
-        private string CourseName;
+        private string FirstName = "none";
+        private string CourseName = "none";
 
-        public Instructor(string Name, string CourseName)
+        public Instructor(string FirstName, string CourseName)
         {
-            this.Name = Name;
+            this.FirstName = FirstName;
             this.CourseName = CourseName;
         }
-
-        public void SetStudentGrade(Student student, int grade)
+        public void SetStudentGrade(Student Name, int Grade)
         {
-            student.SetGrade(grade);
+            Name.SetGrade(Grade);
         }
 
-        public void Print()
+        public string PrintInstructorInfo()
         {
-            Console.WriteLine("Instructor " + this.Name + "teaches" + this.CourseName + ".");
+            return this.FirstName + " " + " (Course: " + this.CourseName + ")";
         }
     }
 }

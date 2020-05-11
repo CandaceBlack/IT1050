@@ -16,28 +16,26 @@ namespace Project3
             Instructor Mike = new Instructor("Mike", "Math");
 
             //Students
-            Student Jane = new Student("Jane", John);
-            Student Joe = new Student("Joe", John);
+            
+            Student Jane = new Student("Jane", John, 0);
+            Student Joe = new Student("Joe", John, 0);
+            Student Melissa = new Student("Melissa", Mike, 0);
+            Student Matt = new Student("Matt", Mike, 0);
 
-            Student Melissa = new Student("Melissa", Mike);
-            Student Matt = new Student("Matt", Mike);
 
-            //Set Grade
             John.SetStudentGrade(Jane, 95);
             John.SetStudentGrade(Joe, 85);
-
             Mike.SetStudentGrade(Melissa, 90);
             Mike.SetStudentGrade(Matt, 92);
 
-            //Print
-            Jane.Print();
-            Joe.Print();
+            Console.WriteLine(Jane.PrintStudentInfo());
+            Console.WriteLine(Joe.PrintStudentInfo());
+            Console.WriteLine(Melissa.PrintStudentInfo());
+            Console.WriteLine(Matt.PrintStudentInfo());
 
-            Melissa.Print();
-            Matt.Print();
-
-            Console.WriteLine("Press any key to continue... ");
+            Console.WriteLine("Press any key to continue...  ");
             Console.ReadKey();
+
 
 
 

@@ -8,28 +8,28 @@ namespace Project3
 {
     class Student
     {
-        private string Name;
-        private int Grade;
+
+        private string Name = "None";
+        private int Grade = 0;
+
         private Instructor Teacher;
 
-        public Student(string name, Instructor teacher)
+        public Student(string Name, Instructor Teacher, int Grade)
         {
-            this.Name = name;
-            this.Teacher = teacher;
-            this.Grade = 0;
+            this.Name = Name;
+            this.Teacher = Teacher;
+            this.Grade = Grade;
         }
 
-        public void SetGrade(int grade)
+        public void SetGrade(int AssignedGrade)
         {
-            this.Grade = 0;
-            this.Grade += grade;
+            this.Grade += AssignedGrade;
         }
 
-        public void Print()
+        //Environment.NewLine property equals \r\n
+        public string PrintStudentInfo()
         {
-            Console.WriteLine("Name" + this.Name + " has a " + this.Grade + "from" + this.Teacher + "." );
-            
-            Teacher.Print();
+            return "Name: " + this.Name + Environment.NewLine + "Grade: " + " " + this.Grade + Environment.NewLine + "Instructor: " + this.Teacher.PrintInstructorInfo() + Environment.NewLine + Environment.NewLine;
         }
 
     }
